@@ -13,6 +13,12 @@ const theme: Theme = {
       greenTeal: "hsl(166, 100%, 37%)",
       cobaltBlue: "hsl(234, 85%, 45%)",
     },
+    secondary: {
+      lightRed: "hsla(0, 100%, 90%, 1)",
+      orangeyYellow: "hsla(39, 100%, 90%)",
+      greenTeal: "hsla(166, 100%, 90%)",
+      cobaltBlue: "hsla(234, 100%, 90%)",
+    },
     gradients: {
       lightStateBlue: "hsl(252, 100%, 67%)",
       lightRoyalBlue: "hsl(241, 81%, 54%)",

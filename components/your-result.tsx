@@ -29,11 +29,10 @@ const YourResultContainer = styled.div`
     `linear-gradient(0deg, ${theme.colors.gradients.lightRoyalBlue}, ${theme.colors.gradients.lightStateBlue})`};
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
-
-  border: 1px solid blue;
+  padding: 1rem;
 
   ${md} {
     width: 100%;
@@ -82,6 +81,6 @@ const YourResultDescription = styled.div`
 
   p {
     font-size: 0.8rem;
-    margin: 1rem 2.2rem;
+    margin: 1rem 1.5rem;
   }
 `;
