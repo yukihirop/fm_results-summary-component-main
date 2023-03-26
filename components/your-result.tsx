@@ -32,7 +32,7 @@ const YourResultContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  padding: 1rem;
+  padding: 1.5em;
 
   ${md} {
     width: 100%;
@@ -81,6 +81,6 @@ const YourResultDescription = styled.div`
 
   p {
     font-size: 0.8rem;
-    margin: 1rem 1.5rem;
+    margin: 1rem 1.5rem 0;
   }
 `;

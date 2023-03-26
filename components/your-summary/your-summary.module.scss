@@ -1,0 +1,86 @@
+.subjectItem:nth-of-type(1) {
+  background-color: hsla(0, 100%, 90%, 1);
+
+  h3 {
+    color: hsl(0, 100%, 67%);
+  }
+
+  h3::before {
+    position: relative;
+    top: 4px;
+    content: "";
+    display: inline-block;
+    background-image: url("/images/icon-reaction.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.subjectItem:nth-of-type(2) {
+  background-color: hsla(39, 100%, 90%);
+
+  h3 {
+    color: hsl(39, 100%, 56%);
+  }
+
+  h3::before {
+    position: relative;
+    top: 4px;
+    content: "";
+    display: inline-block;
+    background-image: url("/images/icon-memory.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.subjectItem:nth-of-type(3) {
+  background-color: hsla(166, 100%, 90%);
+
+  h3 {
+    color: hsl(166, 100%, 37%);
+  }
+
+  h3::before {
+    position: relative;
+    top: 4px;
+    content: "";
+    display: inline-block;
+    background-image: url("/images/icon-verbal.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.subjectItem:nth-of-type(4) {
+  background-color: hsla(234, 100%, 90%);
+
+  h3 {
+    color: hsl(234, 85%, 45%);
+  }
+
+  h3::before {
+    position: relative;
+    top: 4px;
+    content: "";
+    display: inline-block;
+    background-image: url("/images/icon-visual.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.continue {
+  &:hover {
+    cursor: pointer;
+    background: linear-gradient(0deg, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+  }
+}
